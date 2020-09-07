@@ -1,0 +1,8 @@
+#----------------------------------------------------------------------------------------------------------------------------------
+1 Base url : "http://127.0.0.1:8000/app/"
+2 App_name : industrial_project_app
+3 Database Name : Project (Xamp)
+4 Superuser Name : project
+    password: 12345678
+    py manage.py createsuperuser
+
