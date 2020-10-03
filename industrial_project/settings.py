@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'industrial_project_app',
     'rest_framework',
     'rest_framework.authtoken',
-    'corsheaders'
+    'corsheaders',
+    'django_filters'
 
 ]
 #-----Line 8
@@ -83,22 +84,13 @@ WSGI_APPLICATION = 'industrial_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-'''DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-}'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Project',
-        'USER':  'root',
-        'PORT': 3306,
-
-
-    }
 }
+
 
 
 # Password validation

@@ -1,0 +1,49 @@
+ {
+    "Institute": "pce",
+"email": {
+"email": "jhalanipriyansh24@gmail.com"},
+"username" : {
+"username": "priyansh"},
+"Age": "12",
+"confirm_password": "12345678",
+"password": "12345678"
+   }
+
+
+   {
+    "InstituteAddress": "qwertyui",
+
+    "username": {"username": "asdfg"},
+
+
+    "email": {"email": "rtyASDFG@gmail.com"},
+
+
+    "InstitutePhoneNo": "1234567890",
+
+
+    "State_Name": "1",
+    "city_Name": "1",
+
+
+    "password": "12345678",
+
+
+    "confirm_password": "12345678"
+
+
+}
+
+{
+"Post_Title": "fun",
+       "Post_Content" : [
+{"Text" : "qwertyu"}
+],
+"User": "12"
+}
+
+{
+"Post": "1"
+}
+
+http://127.0.0.1:8000/media/media/img/chain1.jpg
